@@ -16,7 +16,7 @@ Et de télécharger le modèle vost FR (vosk-model-fr-0.22) depuis le lien suiva
 
 ## Utilisation
 
-Pour lancer le programme, exécutez la commande suivante en remplaçant `[path du fichier audio]` par le chemin vers votre fichier audio :
+Pour lancer le programme, exécutez la commande suivante en remplaçant `[path du fichier audio]` par le chemin vers votre fichier audio en format .WAV:
 
 ```
 python3 main.py [path du fichier audio]
