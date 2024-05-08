@@ -48,7 +48,7 @@ with open(file_path, "r", encoding="utf-8") as file:
     file_contents = file.read()
 
 prompt = ("Présente l'auteur du transcript en français et de quoi es ce qu'il parle (20 mots maximum), ne réecris "
-          "surtout pas le transcript et né précise pas le nombre de mots: " + '"' +
+          "surtout pas le transcript : " + '"' +
           file_contents + '"')
 
 # On demande au LLM de nous générer une description avec le prompt au dessus
